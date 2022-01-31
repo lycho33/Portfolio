@@ -1,0 +1,15 @@
+/* .github, .dev {
+    margin: 0 2px;
+} */
+
+.info--flexbox {
+    display: flex;
+    align-items: center;
+    margin: 0 9em;
+    float: right;
+}
+
+h2 {
+    margin-right: 40px;
+    float: left;
+}
