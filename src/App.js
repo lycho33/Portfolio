@@ -4,11 +4,12 @@ import Home from './Home'
 import Nav from './Nav'
 import Footer from './Footer'
 import About from './About'
+import Header from './Header'
 
 function App() {
   return (
     <>
-      <header>Header</header>
+      <Header />
       <Nav />
       
       <br />
