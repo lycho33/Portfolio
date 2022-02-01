@@ -6,7 +6,8 @@
 header{
     padding: 30px;
     background: #7CBED3;
-    height: 30px;
+    height: 3vh;
+    padding-top: 2vh;
 }
 
 .circle {

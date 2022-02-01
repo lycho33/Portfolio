@@ -4,7 +4,7 @@
     position: absolute;
     height: 25vh;
     padding: 0 30px;
-    right: -100%;
+    right: -50%;
     transition: all 1s;
 }
 
