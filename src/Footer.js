@@ -9,9 +9,9 @@ const ColoredLine = ({ color }) => (
 );
 
 function Footer() {
-  return <div>
+  return <div className='footer'>
       {/* <ColoredLine color="#6eff3c" /> */}
-      <hr />
+      {/* <hr /> */}
       <div className='contact info--flexbox'>
         <h2>CONTACT</h2>
         <a href="https://github.com/lycho33" className='github'><h1><DiGithubBadge size={42}/> </h1></a>
