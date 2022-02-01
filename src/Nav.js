@@ -5,11 +5,10 @@ import { Link } from 'react-router-dom'
 
 function Nav() {
     
-  return <nav className="sidenav">
+  return <nav className="sidenav active">
       <ul>
           <li>
-              {/* <Link to="/about">About</Link> */}
-              <a href="/about">About</a>
+              <Link to="/about"><span>About</span></Link>
           </li>
       </ul>
   </nav>;
