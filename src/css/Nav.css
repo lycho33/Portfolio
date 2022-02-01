@@ -1,0 +1,16 @@
+.navbar {
+    width: 240px;
+    background: black;
+    position: absolute;
+    height: 95vh;
+    padding: 0 30px;
+    transition: all 1s;
+}
+
+ul {
+   padding: 0; 
+}
+
+ul li {
+    list-style-type: none;
+}
