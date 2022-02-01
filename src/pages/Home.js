@@ -6,7 +6,9 @@ function Home() {
       <div className='vertical-line'>
       </div>
       <div>
-        <h1>hello</h1>
+        <h1>Lydia Cho</h1>
+        <h2>Full-Stack Software Engineer</h2>
+        <h3>Scroll to Begin</h3>
       </div>
   </div>;
 }

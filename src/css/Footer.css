@@ -6,6 +6,7 @@
     padding-bottom: 1vh;
     border-top: 1px solid #6EFF3C;
     height: 8vh;
+    width: auto;
 }
 
 .info--flexbox {
