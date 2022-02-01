@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useState } from "react"
+
+
 
 function Nav() {
-  return <div>
+    
+    const [navbarOpen, setNavbarOpen] = useState(false)
+    
+  return <nav>
       <h3>Nav Bar</h3>
-  </div>;
+      <button>{navbarOpen ? "Close" : "Open"}</button>
+      <ul></ul>
+  </nav>;
 }
 
 export default Nav;
