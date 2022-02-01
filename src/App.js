@@ -10,7 +10,8 @@ function App() {
     <>
       <header>Header</header>
       <Nav />
-
+      
+      <br />
       <h1>Hi</h1>
       <Routes>
         <Route exact path="/" element={<Home/>}/>
