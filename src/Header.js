@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState } from "react"
 import { GiHamburgerMenu } from "react-icons/gi";
 import './css/Header.css'
 
-function Header() {
+function Header({showNav, setShowNav}) {
   return <header>
       Header
       <div className='icon hamburger'>
-        <GiHamburgerMenu size={30}/>
+        <GiHamburgerMenu size={30} onClick={() => setShowNav(!showNav)}/>
       </div>
   </header>;
 }

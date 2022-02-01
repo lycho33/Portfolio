@@ -1,8 +1,8 @@
 .sidenav {
-    width: 240px;
-    background: black;
+    width: 15vh;
+    background: #7CBED3;
     position: absolute;
-    height: 40vh;
+    height: 25vh;
     padding: 0 30px;
     right: -100%;
     transition: all 1s;
@@ -19,6 +19,7 @@ ul {
 ul li {
     list-style-type: none;
     margin: 10px 0;
+    text-align: center;
 }
 
 span {
@@ -33,6 +34,5 @@ span {
 ul li span:hover,
 ul li span.active {
     background: #172b4d;
-
 }
 

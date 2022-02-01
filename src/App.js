@@ -1,23 +1,29 @@
-import './App.css';
+import './css/App.css';
+import React, { useState } from "react"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Home from './Home' 
+import Home from './pages/Home' 
 import Nav from './Nav'
 import Footer from './Footer'
-import About from './About'
+import About from './pages/About'
 import Header from './Header'
+import Experience from './pages/Experience';
+import Projects from './pages/Projects'
 
 function App() {
+  const [showNav, setShowNav] = useState(false)
+
   return (
     <>
-      <Header />
-      <Nav />
-      
-      <br />
-      <h1>Hi</h1>
+      <Header showNav={showNav} setShowNav={setShowNav}/>
+      <Nav show={showNav}/>
+
       <Routes>
         <Route exact path="/" element={<Home/>}/>
-        <Route exact path="/about" element={<About/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/experience" element={<Experience/>}/>
+        <Route path="/projects" element={<Projects/>}/>
       </Routes>
+
       <Footer />
     </>
   );

@@ -1,4 +1,10 @@
 .hamburger {
-    color: pink;
+    color: #6EFF3C;
     float: right;
 }
+
+header{
+    padding: 30px;
+    background: #7CBED3;
+    height: 30px;
+  }
