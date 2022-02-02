@@ -5,9 +5,9 @@ function Home() {
   return <div>
       <div className='vertical-line'>
       </div>
-      <div>
+      <div className='intro'>
         <h1>Lydia Cho</h1>
-        <h2>Full-Stack Software Engineer</h2>
+        <h2 className='title'>Full-Stack Software Engineer</h2>
         <h3>Scroll to Begin</h3>
       </div>
   </div>;

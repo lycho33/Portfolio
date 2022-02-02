@@ -5,5 +5,34 @@
     float: left;
     position: inherit;
     margin: 0 3.4em;
-    margin-top: -1.5em;
+    margin-top: -6.4em;
 }
+
+.intro {
+    display: inherit;
+}
+
+.intro h1 {
+    font-size: 20vh;
+    position: relative;
+    left: 15%;
+}
+
+.title {
+    font-size: 5vh;
+    color: #02FFF0;
+    position: relative;
+    left: 40%;
+    margin-top: -15vh;
+}
+
+.intro, h1, h2, h3 {
+    font-family: Roboto;
+    font-style: italic;
+}
+
+.intro h3 {
+    text-align: center;
+    margin-top: 30vh;
+}
+
