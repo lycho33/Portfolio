@@ -15,14 +15,15 @@
 .intro h1 {
     font-size: 18vh;
     position: relative;
-    left: 15%;
+    left: 25%;
+    margin-top: 20vh;
 }
 
 .title {
     font-size: 4.5vh;
     color: #02FFF0;
     position: relative;
-    left: 40%;
+    left: 50%;
     margin-top: -12vh;
 }
 
