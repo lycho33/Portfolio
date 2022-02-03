@@ -1,10 +1,9 @@
 import React from 'react';
 import '../css/Home.css'
 
-function Home() {
-  return <div>
-      <div className='vertical-line'>
-      </div>
+function Home({child}) {
+  return <div style={child} className='child bg'>
+      {/* <div className='vertical-line'></div> */}
       <div className='intro'>
         <h1>Lydia Cho</h1>
         <h2 className='title'>Full-Stack Software Engineer</h2>

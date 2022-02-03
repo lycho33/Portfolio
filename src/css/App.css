@@ -1,3 +1,17 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.child {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg1{
+  background-color: black;
+}
+
 body {
   background-color: #7CBED3;
   box-sizing: border-box;
@@ -9,5 +23,15 @@ body {
 
 h1 {
   color: white
+}
+
+.vertical-line{
+  border-right: 1px solid #6EFF3C;
+  /* height: 30.3vh; */
+  width: -10em;
+  float: left;
+  position: inherit;
+  margin: 0 3.4em;
+  margin-top: -6.4em;
 }
 

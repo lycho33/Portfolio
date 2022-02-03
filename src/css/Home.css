@@ -1,4 +1,4 @@
-.vertical-line{
+/* .vertical-line{
     border-right: 1px solid #6EFF3C;
     height: 80.3vh;
     width: -10em;
@@ -6,24 +6,24 @@
     position: inherit;
     margin: 0 3.4em;
     margin-top: -6.4em;
-}
+} */
 
 .intro {
     display: inherit;
 }
 
 .intro h1 {
-    font-size: 20vh;
+    font-size: 18vh;
     position: relative;
     left: 15%;
 }
 
 .title {
-    font-size: 5vh;
+    font-size: 4.5vh;
     color: #02FFF0;
     position: relative;
     left: 40%;
-    margin-top: -15vh;
+    margin-top: -12vh;
 }
 
 .intro, h1, h2, h3 {

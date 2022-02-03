@@ -8,24 +8,35 @@ import About from './pages/About'
 import Header from './Header'
 import Experience from './pages/Experience';
 import Projects from './pages/Projects'
+import HorizontalScroll from 'react-scroll-horizontal';
 
 function App() {
   const [showNav, setShowNav] = useState(false)
+  const child = { width: `100vw`, height: `80%`}
 
   return (
-    <>
+    <div className='App'>
       <Header showNav={showNav} setShowNav={setShowNav}/>
       <Nav show={showNav}/>
+      <div className='vertical-line'></div>
+        <HorizontalScroll>
 
-      <Routes>
-        <Route exact path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/experience" element={<Experience/>}/>
-        <Route path="/projects" element={<Projects/>}/>
-      </Routes>
+          <Routes>
+            <Route exact path="/" element={<Home child={child}/>}/>
+            <Route path="/about" element={<About child={child}/>}/>
+            <Route path="/experience" element={<Experience child={child}/>}/>
+            <Route path="/projects" element={<Projects child={child}/>}/>
+          </Routes>
 
-      <Footer />
-    </>
+          {/* **********PAGES************ */}
+          <About child={child}/>
+          <Experience child={child}/>
+          <Projects child={child}/>
+          {/* *************************** */}
+        </HorizontalScroll>
+
+        <Footer />
+    </div>
   );
 }
 
