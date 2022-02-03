@@ -27,11 +27,12 @@ h1 {
 
 .vertical-line{
   border-right: 1px solid #6EFF3C;
-  /* height: 30.3vh; */
-  width: -10em;
+  height: 93.7vh;
+  /* width: -10em; */
   float: left;
-  position: inherit;
+  position: relative;
   margin: 0 3.4em;
-  margin-top: -6.4em;
+  margin-top: -6.3em;
+  z-index: -1;
 }
 
