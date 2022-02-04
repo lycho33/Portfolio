@@ -1,7 +1,7 @@
 .contents {
     /* position: absolute; */
     display: flex;
-    transform: translate(15%, 30%);
+    transform: translate(20%, 35%);
     width: 70vw;
 }
 
