@@ -1,0 +1,34 @@
+.contents {
+    /* position: absolute; */
+    display: flex;
+    transform: translate(15%, 30%);
+    width: 70vw;
+}
+
+.bio {
+    padding-right: 4em;
+    margin-top: -3em;
+}
+
+.bio h2 {
+    color: #02FFF0;
+}
+
+.about-title {
+    font-size: 5em;
+}
+
+.contents img {
+    border-radius: 30%;
+    width: 40vw;
+    height: 40vh;
+}
+
+.languages {
+    display: flex;  
+}
+
+.languages, li {
+    padding-right: 10%;
+}
+
