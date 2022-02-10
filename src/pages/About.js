@@ -6,6 +6,7 @@ import '../css/About.css'
 
 function About({child}) {
   return <div style={child} className='child bg1'>
+    
       <div className='contents'>
         <div className='bio'>
           <h1 className='about-title'>About Me</h1>
