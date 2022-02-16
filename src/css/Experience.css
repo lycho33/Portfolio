@@ -1,0 +1,38 @@
+.experienceContainer{
+    width: 80vw;
+    height: 60vh;
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.e-title{
+    text-align: center;
+    font-size: 3.7em;
+    padding-top: 3rem;
+}
+
+.tabList{
+    position: relative;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    color: yellow;
+    font-style: italic;
+    height: 5rem;
+}
+
+li{
+    margin-bottom: 9px;
+    text-align: justify;
+}
+
+.description h2{
+    color: aqua;
+}
