@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import './css/Nav.css'
+import '../css/Nav.css'
 import { Link } from 'react-router-dom'
 
 

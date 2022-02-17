@@ -2,10 +2,10 @@ import './css/App.css';
 import React, { useState } from "react"
 import { Route, Routes, useLocation } from 'react-router-dom'
 import Home from './pages/Home' 
-import Nav from './Nav'
-import Footer from './Footer'
+import Nav from './margins/Nav'
+import Footer from './margins/Footer'
 import About from './pages/About'
-import Header from './Header'
+import Header from './margins/Header'
 import Experience from './pages/Experience';
 import Projects from './pages/Projects'
 import {AnimatePresence} from 'framer-motion'

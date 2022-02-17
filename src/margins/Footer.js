@@ -3,7 +3,7 @@ import { DiGithubBadge } from "react-icons/di";
 import { FaDev } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
-import './css/Footer.css'
+import '../css/Footer.css'
 
 function Footer() {
   return <div className='footer'>
