@@ -3,7 +3,6 @@
     left:0;
     bottom:0;
     right:0;
-    padding-bottom: 1vh;
     border-top: 1px solid #6EFF3C;
     height: 8vh;
     width: auto;
@@ -12,19 +11,17 @@
 .info--flexbox {
     display: flex;
     align-items: center;
-    margin: 0 5em;
+    margin: 0 1.5em;
     float: right;
     height: 9.5vh;
 }
 
 .footer h2 {
-    margin-right: 40px;
+    margin-right: 3rem;
     float: left;
     color: #01F0FF;
 }
 
-hr {
-    
-	border-top: 1px solid #6EFF3C;
-	border-bottom: 1px solid #6EFF3C;
+.github, .dev, .email, .linkedin{
+    padding-right: 1rem;
 }

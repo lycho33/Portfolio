@@ -3,6 +3,12 @@ import ProfilePic from '../image/profilePic.jpg'
 import '../css/About.css'
 import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom'
+import { FaReact } from 'react-icons/fa';
+import { SiRedux } from 'react-icons/si';
+import { SiJavascript } from 'react-icons/si';
+import { DiRuby } from 'react-icons/di';
+import { SiRubyonrails } from 'react-icons/si';
+import { AiFillGithub } from 'react-icons/ai';
 
 const containerVariants = {
   hidden: {
@@ -34,12 +40,13 @@ function About() {
               <h1 className='about-title'>About Me</h1>
               <p>Software Engineer with experience in Ruby on Rails, JavaScript and React and a background as both an educator and a professional violinist. With a love of problem solving, how others experience something and solving technical problems, I have the tenacity and flexibility to adjust to others in order to accomplish a project. </p>
               <h2>Technical Skills</h2>
-              <p>PUT SOME ICONS on each language</p>
               <ul className='languages'>
-                <li>React</li>
-                <li>Redux</li>
-                <li>JavaScript</li>
-                <li>Ruby</li>
+                <li><FaReact color="#02FFF0"/> React</li>
+                <li><SiRedux color="#8A2BE2"/> Redux</li>
+                <li><SiJavascript color="yellow"/> JavaScript</li>
+                <li><DiRuby color="red"/> Ruby</li>
+                <li><SiRubyonrails color='red' size={20}/> Ruby on Rails</li>
+                <li><AiFillGithub color='black' size={20}/> Github</li>
               </ul>
             </div>
             <img src={ProfilePic} alt="Profile Pic" />

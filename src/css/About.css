@@ -25,11 +25,11 @@
 }
 
 .languages {
-    display: flex;  
+    display: flex;
 }
 
 .languages, li {
-    padding-right: 10%;
+    padding-right: 11%;
 }
 
 /* Button style */
@@ -42,7 +42,7 @@
     flex-direction: column;
     position: relative;
     left: 68%;
-    margin-top: 3.5%;
+    margin-top: 4.5%;
 }
 
 .btn-container-a a:hover::before{

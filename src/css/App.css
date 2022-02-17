@@ -3,15 +3,6 @@
   height: 100vh;
 }
 
-.child {
-  width: 100vw;
-  height: 100vh;
-}
-
-/* .bg1{
-  background-color: black;
-} */
-
 body {
   background-color: #7CBED3;
   box-sizing: border-box;
@@ -25,14 +16,13 @@ h1 {
   color: white
 }
 
-.vertical-line{
-  border-right: 1px solid #6EFF3C;
-  height: 93.7vh;
-  /* width: -10em; */
-  float: left;
-  position: relative;
-  margin: 0 3.4em;
-  margin-top: -6.3em;
-  z-index: -1;
+/* vertical styling */
+.vl {
+  border-left: 1px solid #6EFF3C;
+  height: 81.5vh;
+  position: absolute;
+  left: 3.8%;
+  margin-left: -3px;
+  top: 8.75%;
 }
 

@@ -33,6 +33,7 @@ function Home() {
             <h1>Lydia Cho</h1>
             <h2 className='title'>Full-Stack Software Engineer</h2>
           </div>
+          
           <div className='btn-container'>
             <span className='link'><Link to="/about"><span className='text'><b>Who Am I?</b></span></Link></span>
           </div>

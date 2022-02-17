@@ -79,11 +79,4 @@
     transform: scaleX(0);
 }
 
-.vl {
-    border-left: 1px solid #6EFF3C;
-    height: 80.5vh;
-    position: absolute;
-    left: 3.9%;
-    margin-left: -3px;
-    top: 8.75%;
-}
+

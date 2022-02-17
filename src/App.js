@@ -1,6 +1,6 @@
 import './css/App.css';
 import React, { useState } from "react"
-import { Router, Route, Routes, useLocation } from 'react-router-dom'
+import { Route, Routes, useLocation } from 'react-router-dom'
 import Home from './pages/Home' 
 import Nav from './Nav'
 import Footer from './Footer'
@@ -19,7 +19,7 @@ function App() {
   return (
     <div className='App'>
       <Header showNav={showNav} setShowNav={setShowNav}/>
-      <Nav show={showNav}/>
+      {/* <Nav show={showNav}/> */}
 
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.key}>
