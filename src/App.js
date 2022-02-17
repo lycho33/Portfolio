@@ -8,7 +8,6 @@ import About from './pages/About'
 import Header from './Header'
 import Experience from './pages/Experience';
 import Projects from './pages/Projects'
-import Pages from './pages/Pages'
 import {AnimatePresence} from 'framer-motion'
 
 function App() {

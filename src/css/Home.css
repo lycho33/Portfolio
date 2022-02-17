@@ -27,6 +27,7 @@
     margin-top: 30vh;
 }
 
+/* Button styling */
 .btn-container {
     width: 300px;
     height: 100px;
@@ -43,7 +44,7 @@
     text-decoration: none;
     border: 2px solid #6EFF3C;
     padding: 5px;
-    color: #000;
+    /* color: #000; */
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;
@@ -54,7 +55,7 @@
     position: relative;
     /* z-index coz when we put bg to before and after this span text will not be visible */
     z-index: 1;
-    color: #DFFCA2;
+    color: yellow;
 }
 
 .btn-container a:hover::before{
@@ -69,7 +70,7 @@
     width: calc(100% - 10px);
     /*100% plus double the times left values*/
     height: calc(100% + 10px);
-    background-color: #7CBED3;
+    background-color: rgb(41, 213, 236);
     transition: all 0.5s ease-in-out;
     transform: scaleX(1);
 }
@@ -78,3 +79,11 @@
     transform: scaleX(0);
 }
 
+.vl {
+    border-left: 1px solid #6EFF3C;
+    height: 80.5vh;
+    position: absolute;
+    left: 3.9%;
+    margin-left: -3px;
+    top: 8.75%;
+}

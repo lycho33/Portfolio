@@ -57,7 +57,7 @@
     width: calc(100% - 10px);
     /*100% plus double the times left values*/
     height: calc(100% + 10px);
-    background-color: #7CBED3;
+    background-color: rgb(41, 213, 236);
     transition: all 0.5s ease-in-out;
     transform: scaleX(1);
 }

@@ -17,25 +17,29 @@ const containerVariants = {
   }
 }
 
-function Home({child}) {
+function Home() {
   return (
-    <motion.div className='home container'
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
-    >
-      <div>
-        <div className='intro'>
-          <h1>Lydia Cho</h1>
-          <h2 className='title'>Full-Stack Software Engineer</h2>
-        </div>
-        <div className='btn-container'>
-          <span className='link'><Link to="/about"><span className='text'><b>Who Am I?</b></span></Link></span>
-        </div>
+    <div>
+      <div className='vl'></div>
+      <motion.div className='home container'
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+      >
+        <div>
 
-      </div>
-    </motion.div>
+          <div className='intro'>
+            <h1>Lydia Cho</h1>
+            <h2 className='title'>Full-Stack Software Engineer</h2>
+          </div>
+          <div className='btn-container'>
+            <span className='link'><Link to="/about"><span className='text'><b>Who Am I?</b></span></Link></span>
+          </div>
+
+        </div>
+      </motion.div>
+    </div>
   );
 }
 

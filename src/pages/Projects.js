@@ -15,19 +15,22 @@ const containerVariants = {
   }
 }
 
-function Projects({child}) {
+function Projects() {
 
   return (
-    <motion.div className='home container'
-    variants={containerVariants}
-    initial="hidden"
-    animate="visible"
-    exit="exit"
-    >
-      <div>
-          <h1>Projects</h1>
-      </div>
-    </motion.div>
+    <div>
+      <div className='vl'></div>
+      <motion.div className='home container'
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+      >
+        <div>
+            <h1>Projects</h1>
+        </div>
+      </motion.div>
+    </div>
   );
 }
 
