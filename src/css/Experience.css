@@ -15,7 +15,7 @@
 
 .tabList{
     position: relative;
-    left: 50%;
+    left: 40%;
     top: 60%;
     transform: translate(-50%, -50%);
 }
@@ -35,4 +35,44 @@ li{
 
 .description h2{
     color: aqua;
+}
+
+/* Button style */
+.btn-container-e {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 83%;
+    margin-top: 9.7%;
+    vertical-align:top;
+	transform:rotate(7deg);
+    -ms-transform:rotate(90deg); /* IE 9 */
+    -moz-transform:rotate(90deg); /* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari and Chrome */
+    -o-transform:rotate(90deg); /* Opera */
+}
+
+.btn-container-e a:hover::before{
+    transform: scaleY(0);
+}
+
+.btn-container-e a::after{
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    width: calc(100% - 10px);
+    /*100% plus double the times left values*/
+    height: calc(100% + 10px);
+    background-color: #7CBED3;
+    transition: all 0.5s ease-in-out;
+    transform: scaleX(1);
+}
+
+.btn-container-e a:hover::after{
+    transform: scaleX(0);
 }

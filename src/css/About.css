@@ -32,3 +32,37 @@
     padding-right: 10%;
 }
 
+/* Button style */
+.btn-container-a {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 68%;
+    margin-top: 3.5%;
+}
+
+.btn-container-a a:hover::before{
+    transform: scaleY(0);
+}
+
+.btn-container-a a::after{
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    width: calc(100% - 10px);
+    /*100% plus double the times left values*/
+    height: calc(100% + 10px);
+    background-color: #7CBED3;
+    transition: all 0.5s ease-in-out;
+    transform: scaleX(1);
+}
+
+.btn-container-a a:hover::after{
+    transform: scaleX(0);
+}
+

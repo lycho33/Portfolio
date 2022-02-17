@@ -1,6 +1,6 @@
 import './css/App.css';
 import React, { useState } from "react"
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Router, Route, Routes, useLocation } from 'react-router-dom'
 import Home from './pages/Home' 
 import Nav from './Nav'
 import Footer from './Footer'
@@ -9,25 +9,27 @@ import Header from './Header'
 import Experience from './pages/Experience';
 import Projects from './pages/Projects'
 import Pages from './pages/Pages'
-import HorizontalScroll from 'react-scroll-horizontal';
+import {AnimatePresence} from 'framer-motion'
 
 function App() {
+
+  const location = useLocation();
+
   const [showNav, setShowNav] = useState(false)
-  const child = { width: `100vw`, height: `80%`}
+
   return (
     <div className='App'>
       <Header showNav={showNav} setShowNav={setShowNav}/>
       <Nav show={showNav}/>
-      {/* <div className='vertical-line'></div> */}
-      {/* <Pages /> */}
-    
-      <Routes>
-        <Route exact path="/" element={<Home />}/>
-        <Route path="/about" element={<About />}/>
-        <Route path="/experience" element={<Experience />}/>
-        <Route path="/projects" element={<Projects />}/>
-      </Routes>
 
+      <AnimatePresence exitBeforeEnter>
+        <Routes location={location} key={location.key}>
+          <Route exact path="/" element={<Home />}/>
+          <Route path="/about" element={<About />}/>
+          <Route path="/experience" element={<Experience />}/>
+          <Route path="/projects" element={<Projects />}/>
+        </Routes>
+      </AnimatePresence>
       <Footer />
     </div>
   );

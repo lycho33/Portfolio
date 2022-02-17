@@ -1,13 +1,3 @@
-/* .vertical-line{
-    border-right: 1px solid #6EFF3C;
-    height: 80.3vh;
-    width: -10em;
-    float: left;
-    position: inherit;
-    margin: 0 3.4em;
-    margin-top: -6.4em;
-} */
-
 .intro {
     display: inherit;
 }
@@ -35,5 +25,56 @@
 .intro h3 {
     text-align: center;
     margin-top: 30vh;
+}
+
+.btn-container {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 40%;
+    margin-top: 8%;
+}
+
+.link {
+    text-decoration: none;
+    border: 2px solid #6EFF3C;
+    padding: 5px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+}
+
+.text {
+    position: relative;
+    /* z-index coz when we put bg to before and after this span text will not be visible */
+    z-index: 1;
+    color: #DFFCA2;
+}
+
+.btn-container a:hover::before{
+    transform: scaleY(0);
+}
+
+.btn-container a::after{
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    width: calc(100% - 10px);
+    /*100% plus double the times left values*/
+    height: calc(100% + 10px);
+    background-color: #7CBED3;
+    transition: all 0.5s ease-in-out;
+    transform: scaleX(1);
+}
+
+.btn-container a:hover::after{
+    transform: scaleX(0);
 }
 
