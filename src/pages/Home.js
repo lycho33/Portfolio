@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Home.css'
+import DoublyLInkedList from '../linkedlists/DoublyLInkedList'
 import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom'
 
@@ -32,6 +33,7 @@ function Home() {
           <div className='intro'>
             <h1>Lydia Cho</h1>
             <h2 className='title'>Full-Stack Software Engineer</h2>
+            {/* <DoublyLInkedList /> */}
           </div>
           
           <div className='btn-container'>

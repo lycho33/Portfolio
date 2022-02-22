@@ -19,10 +19,11 @@ h1 {
 /* vertical styling */
 .vl {
   border-left: 1px solid #6EFF3C;
-  height: 81.5vh;
+  height: 82.3vh;
+  /* height: 663px; */
   position: absolute;
-  left: 3.8%;
+  left: 58px;
   margin-left: -3px;
-  top: 8.75%;
+  top: 63px;
 }
 

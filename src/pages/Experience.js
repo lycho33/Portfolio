@@ -46,7 +46,6 @@ function Experience() {
                   <li>Collaborated with the digital learning management team to build a prototype network platform for the university global community, to build a strong user-base for the university`s digital courses and help build the online brand </li>
                   <li>Investigated LMS digital training platforms (MOOCs, commercial websites) for Indiana University`s Jacob School of Music (JSoM) to optimize the school`s positioning in the market</li>
                   <li>Created a competitive analysis amongst 15 major collegiate music universities, 4 MOOCs platforms and 4 commercial online music services</li>
-                  <li>Co-created with the Chair of the Dean`s Advisory Council; Consulted JSoM`s potential trajectory for a 2020 pilot online music training program with forecasts of potential return on investment. </li>
                 </TabPanel>
                 <TabPanel tabId='vertical-tab-two' className="description">
                   <h2>Intern</h2>

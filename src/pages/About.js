@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ProfilePic from '../image/profilePic.jpg'
+import { useNavigate } from 'react-router-dom'
 import '../css/About.css'
 import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom'
@@ -25,6 +26,9 @@ const containerVariants = {
 }
 
 function About() {
+
+
+
   return (
     <div>
       <div className='vl'></div>
@@ -47,6 +51,7 @@ function About() {
                 <li><DiRuby color="red"/> Ruby</li>
                 <li><SiRubyonrails color='red' size={20}/> Ruby on Rails</li>
                 <li><AiFillGithub color='black' size={20}/> Github</li>
+                <li>Sqlite3</li>
               </ul>
             </div>
             <img src={ProfilePic} alt="Profile Pic" />

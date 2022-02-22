@@ -1,5 +1,5 @@
 .experienceContainer{
-    width: 80vw;
+    width: 70vw;
     height: 60vh;
     position: absolute;
     left: 57%;
@@ -29,7 +29,7 @@
 }
 
 li{
-    margin-bottom: 9px;
+    margin-bottom: 20px;
     text-align: justify;
 }
 

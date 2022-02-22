@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { VscMenu } from "react-icons/vsc";
 import '../css/Header.css'
 
-function Header({showNav, setShowNav}) {
+function Header() {
 
   return <header>
       <Link to="/">
@@ -18,9 +18,6 @@ function Header({showNav, setShowNav}) {
           <Link to="/projects" style={{ textDecoration: 'none' }}><li>Projects</li></Link>
         </ul>
       </div>
-      {/* <div className='icon hamburger'>
-        <VscMenu size={40} onClick={() => setShowNav(!showNav)}/>
-      </div> */}
   </header>;
 }
 

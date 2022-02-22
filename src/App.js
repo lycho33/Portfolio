@@ -1,6 +1,6 @@
 import './css/App.css';
-import React, { useState } from "react"
-import { Route, Routes, useLocation } from 'react-router-dom'
+import React, { useState, useEffect } from "react"
+import { Route, Routes, useLocation, useNavigate } from 'react-router-dom'
 import Home from './pages/Home' 
 import Nav from './margins/Nav'
 import Footer from './margins/Footer'
@@ -15,6 +15,26 @@ function App() {
   const location = useLocation();
 
   const [showNav, setShowNav] = useState(false)
+
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    window.onwheel = e => {
+      e.preventDefault()
+      if(e.deltaY >= 0){
+        console.log('Scroll Down')
+        console.log(location.pathname)
+        navigate('/experience')
+      } else {
+        console.log('Scroll Up')
+        console.log(location.pathname)
+        navigate('/')
+      }
+    }
+  }, {passive: true})
+  //depending on the location
+  //array with location and navigate to the experience
+  //linkedList
 
   return (
     <div className='App'>
