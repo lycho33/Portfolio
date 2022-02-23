@@ -56,9 +56,9 @@ function About() {
             </div>
             <img src={ProfilePic} alt="Profile Pic" />
           </div>  
-          <div className='btn-container-a'>
+          {/* <div className='btn-container-a'>
             <span className='link'><Link to="/experience"><span className='text'><b>Where have I worked?</b></span></Link></span>
-          </div>  
+          </div>   */}
       </div>
     </motion.div>
   </div>

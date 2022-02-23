@@ -34,9 +34,7 @@ function App() {
     const nextPath = PagesData[currentPath + 1]
     console.log("next", nextPath)
 
-    if(currentPath === PagesData.length - 1){
-      return navigate(PagesData[0])
-    } else if (currentPath < PagesData.length){
+    if (currentPath < PagesData.length){
       return navigate(nextPath)
     }  
   }
@@ -50,12 +48,13 @@ function App() {
     const prevPath = (currentIndex <= lastPath) && currentIndex - 1
     console.log("p[revious] index,", prevPath)
     
-    if(currentIndex === 0){
-      return navigate(PagesData[lastPath])
-    } else if (currentIndex === lastPath){
-      return navigate(PagesData[2])
-    } 
-    else if (currentIndex < PagesData.length && currentIndex > 0){
+    // if(currentIndex === 0){
+    //   return navigate(PagesData[lastPath])
+    // } else if (currentIndex === lastPath){
+    //   return navigate(PagesData[2])
+    // } 
+    // else 
+    if (currentIndex < PagesData.length && currentIndex > 0){
       return navigate(PagesData[prevPath])
     }
   }
@@ -66,6 +65,9 @@ function App() {
       <ReactScrollWheelHandler
         upHandler={prevIndex}
         downHandler={nextIndex}
+        style={{
+          scrollBehavior: "smooth"
+        }}
       >
         <AnimatePresence exitBeforeEnter>
           <Routes location={location} key={location.key}>

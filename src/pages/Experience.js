@@ -62,9 +62,9 @@ function Experience() {
                 </TabPanel>
               </Tabs>
           </div>
-          <div className='btn-container-e'>
+          {/* <div className='btn-container-e'>
             <span className='link'><Link to="/projects"><span className='text'><b>What have I made?</b></span></Link></span>
-          </div>    
+          </div>     */}
               {/* {ExperienceData.map((info, index) => {
             return (
                 <div className="apps">
