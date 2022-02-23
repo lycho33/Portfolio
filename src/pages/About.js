@@ -27,8 +27,6 @@ const containerVariants = {
 
 function About() {
 
-
-
   return (
     <div>
       <div className='vl'></div>

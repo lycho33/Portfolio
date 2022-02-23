@@ -3,6 +3,7 @@ import '../css/Home.css'
 import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom'
 
+
 const containerVariants = {
   hidden: {
     opacity: 0,
@@ -19,7 +20,7 @@ const containerVariants = {
 
 function Home() {
   return (
-    <div>
+    <>
       <div className='vl'></div>
       <motion.div className='home container'
         variants={containerVariants}
@@ -43,7 +44,7 @@ function Home() {
 
         </div>
       </motion.div>
-    </div>
+    </>
   );
 }
 

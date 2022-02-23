@@ -1,13 +1,13 @@
-.App {
+/* .App {
   width: 100vw;
   height: 100vh;
-}
+} */
 
 body {
   background-color: #7CBED3;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   font-family: 'Roboto', sans-serif;
   color: white;
 }
@@ -27,11 +27,11 @@ h1 {
 /* vertical styling */
 .vl {
   border-left: 1px solid #6EFF3C;
-  height: 85vh;
-  /* height: 663px; */
+  /* height: 125vh; */
+  height: 963px;
   position: absolute;
   left: 58px;
   margin-left: -3px;
-  top: 63px;
+  top: 20px;
 }
 
