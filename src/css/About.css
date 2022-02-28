@@ -29,7 +29,8 @@
 }
 
 .languages, li {
-    padding-right: 9%;
+    padding-right: 8%;
+    list-style-type: none;
 }
 
 /* Button style */
