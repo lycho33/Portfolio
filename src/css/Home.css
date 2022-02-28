@@ -27,6 +27,14 @@
     margin-top: 30vh;
 }
 
+/* parallelogram */
+.diagonal-box{
+    /* height: 1px;
+    background: black; */
+    background-image: linear-gradient(45deg, #5587c9, #23ceb7);
+	transform: skewY(-10deg);
+}
+
 /* Button styling */
 .btn-container {
     width: 300px;

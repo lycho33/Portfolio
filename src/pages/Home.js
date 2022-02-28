@@ -31,9 +31,11 @@ function Home() {
         <div>
 
           <div className='intro'>
-            <h1>Lydia Cho</h1>
-            <h2 className='title'>Full-Stack Software Engineer</h2>
-          </div>
+            <div className='diagonal-box'>
+              <h1>Lydia Cho</h1>
+              <h2 className='title'>Full-Stack Software Engineer</h2>
+            </div>
+            </div>
           <div className='btn-container'>
             <h3>Scroll Down to Begin</h3>
           </div>
