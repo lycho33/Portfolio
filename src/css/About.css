@@ -1,5 +1,6 @@
 .font-link {
-    font-family: 'Rufina', serif;}
+    font-family: 'Quicksand', sans-serif;
+}
 
 .contents {
     /* position: absolute; */
@@ -20,7 +21,7 @@
 }
 
 .bio p {
-    font-family: 'Rufina';
+    font-family: 'Quicksand';
     margin-top: -30px;
     margin-bottom: 40px;
 }
@@ -30,7 +31,7 @@
 }
 
 .contents img {
-    border-radius: 30%;
+    border-radius: 40%;
     width: 40vw;
     height: 40vh;
 }
@@ -42,12 +43,12 @@
 .languages, li {
     padding-right: 8%;
     list-style-type: none;
-    font-family: Roboto;
     display: inline-flex;
 }
 
 .lang-name {
     padding-left: 15px;
+    font-family: Quicksand;
 }
 
 /* Button style */
