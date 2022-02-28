@@ -33,10 +33,9 @@ function Home() {
           <div className='intro'>
             <h1>Lydia Cho</h1>
             <h2 className='title'>Full-Stack Software Engineer</h2>
-            {/* <DoublyLInkedList /> */}
           </div>
           <div className='btn-container'>
-            <h3>Scroll to Begin</h3>
+            <h3>Scroll Down to Begin</h3>
           </div>
           {/* <div className='btn-container'>
             <span className='link'><Link to="/about"><span className='text'><b>Who Am I?</b></span></Link></span>
