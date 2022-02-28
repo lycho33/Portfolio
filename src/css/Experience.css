@@ -11,6 +11,8 @@
     text-align: center;
     font-size: 3.7em;
     padding-top: 3rem;
+    font-family: Roboto;
+    font-style: italic;
 }
 
 .tabList{
@@ -26,15 +28,20 @@
     color: yellow;
     font-style: italic;
     height: 5rem;
+    font-family: Roboto;
+    font-style: italic;
 }
 
 li{
     margin-bottom: 20px;
     text-align: justify;
+    font-family: 'Rufina';
 }
 
 .description h2{
     color: aqua;
+    font-family: Roboto;
+    font-style: italic;
 }
 
 /* Button style */

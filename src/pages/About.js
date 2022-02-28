@@ -38,19 +38,18 @@ function About() {
           <div className='contents'>
             <div className='bio'>
               <h1 className='about-title'>About Me</h1>
-              <p>Software Engineer with experience in Ruby on Rails, JavaScript and React and a background as both an educator and a professional violinist. With a love of problem solving, how others experience something and solving technical problems, I have the tenacity and flexibility to adjust to others in order to accomplish a project. </p>
+              <p className='font-link'>Software Engineer with experience in Ruby on Rails, JavaScript and React and a background as both an educator and a professional violinist. With a love of problem solving, how others experience something and solving technical problems, I have the tenacity and flexibility to adjust to others in order to accomplish a project. </p>
               <h2>Technical Skills</h2>
               <ul className='languages'>
-                <li><FaReact size={30}color="#02FFF0"/> React</li>
-                <li><SiRedux size={30}color="#8A2BE2"/> Redux</li>
-                <li><SiJavascript size={30}color="yellow"/> JavaScript</li>
-                <li><DiRuby size={30}color="red"/> Ruby</li>
-     
+                <li><FaReact size={30}color="#02FFF0"/><span className='lang-name'> React</span></li>
+                <li><SiRedux size={30}color="#8A2BE2"/><span className='lang-name'> Redux</span> </li>
+                <li><SiJavascript size={30}color="yellow"/><span className='lang-name'> JavaScript</span> </li>
+                <li><DiRuby size={30}color="red"/><span className='lang-name'>Ruby</span> </li>
+                <li><SiRubyonrails color='red' size={60}/><span className='lang-name'>Ruby on Rails</span> </li>
               </ul>
-              <ul className='languages'>
-                <li><SiRubyonrails color='red' size={30}/> Ruby on Rails</li>
-                <li><AiFillGithub color='black' size={30}/> Github</li>
-                <li><SiSqlite color='blue' size={30}/>Sqlite3</li>
+              <ul className='languages' style={{ marginTop: '-15px' }}>
+                <li><AiFillGithub color='black' size={30}/><span className='lang-name'>Github</span> </li>
+                <li><SiSqlite color='blue' size={30}/><span className='lang-name'>Sqlite3</span> </li>
               </ul>
             </div>
             <img src={ProfilePic} alt="Profile Pic" />

@@ -1,17 +1,28 @@
+.font-link {
+    font-family: 'Rufina', serif;}
+
 .contents {
     /* position: absolute; */
     display: flex;
-    transform: translate(25%, 25%);
+    transform: translate(25%, 20%);
     width: 70vw;
 }
 
 .bio {
     padding-right: 4em;
-    margin-top: -3em;
+    margin-top: -4em;
 }
 
 .bio h2 {
-    color: #02FFF0;
+    color: #faee4a;
+    font-family: Roboto;
+    font-style: italic;
+}
+
+.bio p {
+    font-family: 'Rufina';
+    margin-top: -30px;
+    margin-bottom: 40px;
 }
 
 .about-title {
@@ -31,6 +42,12 @@
 .languages, li {
     padding-right: 8%;
     list-style-type: none;
+    font-family: Roboto;
+    display: inline-flex;
+}
+
+.lang-name {
+    padding-left: 15px;
 }
 
 /* Button style */

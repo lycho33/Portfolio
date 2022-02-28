@@ -36,9 +36,9 @@ function Experience() {
           <div className='experienceContainer'>
               <Tabs defaultTab="vertical-tab-one" vertical className="tabList">
                 <TabList>
-                  <Tab tabFor='vertical-tab-one' className="tab">Indiana University Bloomington</Tab>
-                  <Tab tabFor='vertical-tab-two' className="tab">Harvard Graduate School of Education</Tab>
-                  <Tab tabFor='vertical-tab-three' className="tab">Northwestern University</Tab>
+                  <Tab tabFor='vertical-tab-one' className="tab"><h2>Indiana University Bloomington</h2></Tab>
+                  <Tab tabFor='vertical-tab-two' className="tab"><h2>Harvard Graduate School of Education</h2></Tab>
+                  <Tab tabFor='vertical-tab-three' className="tab"><h2>Northwestern University</h2></Tab>
                 </TabList>
 
                 <TabPanel tabId='vertical-tab-one' className="description">

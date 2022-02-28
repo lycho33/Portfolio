@@ -39,25 +39,17 @@ header{
 }
 
 .home-page-slider ul {
-    /* position: absolute; */
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
-    /* bottom: 0px; */
-    /* left: 0; */
     width: 100%;
-    /* height: 100%; */
     padding: 0 4px;
-    /* border-radius: 38px; */
 }
 
 .home-page-slider li {
     color: white;
-    /* position: relative;
-    display: inline-block;
-    width: 80%;
-    height: 30px; */
     padding-right: 1.5em;
+    font-family: Roboto;
+    font-size: 1.4em;
 }
 
 
