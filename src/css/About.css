@@ -5,13 +5,17 @@
 .contents {
     /* position: absolute; */
     display: flex;
-    transform: translate(25%, 20%);
-    width: 70vw;
+    transform: translate(12%, 6%);
+    width: 82vw;
 }
 
 .bio {
     padding-right: 4em;
     margin-top: -4em;
+}
+
+.summary {
+    margin-left: 40px;
 }
 
 .bio h2 {
@@ -31,9 +35,11 @@
 }
 
 .contents img {
-    border-radius: 40%;
+    border-radius: 50%;
     width: 40vw;
     height: 40vh;
+    margin-top: 5vh;
+
 }
 
 .languages {
