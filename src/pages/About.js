@@ -39,9 +39,10 @@ function About() {
             <div className='bio'>
               <h1 className='about-title'>About Me</h1>
               <p>
-                <span className='summary'>I have always been a musician and an educator and have always fueled my passion with the adventure of building lifetime skills. As a musician, I was driven to hone my craft to the level of the great masters and dreamed to achieve a level where I was released from the worries of techniques and free to achieve maximum artistic expression. As an educator, my mission was to help students develop the right tools to gain ownership and intrinsic motivation over their learners-journey. Asking carefully scaffolded questions, learning to problem-solve on one's own, understanding one's learning process, and repeatedly reviewing what one's goals are, were all components I believed essential tools.</span>
-                <br/><br/><span className='summary'>From years of this pursuit, I realized that my insatiable desire to build and teach skills did not stop with music. I wanted to learn how to build apps. After a month of joining the Flatiron School, I quickly learned that the problem-solving I so enjoyed in my other fields were just as fun when I was coding. Not only could I enjoy the journey of my problem-solving skills improve, the infinite possibilities of making an imagination a reality gave me the same thrill I had felt from music.</span>
-                <br/><br/><span className='summary'>Here I am after Flatiron as a full-stack engineer. I have never been more excited to continue my growth. The lessons I learned as a musician/educator have evolved due to programming and I can't wait to see how far I can go.</span>
+                <span className='summary'>Hello! I am a full-stack developer with a passion for dynamic user experiences and a deep love for the creative process of developing effective real-world solutions. Previously, I was a violinist and teacher, where the root of my joy in both fields was obsessing over techniques and cognition learning. When shifting over to programming, I quickly discovered the same thrill and creativity I so loved. On top of this, programming allows me to put my accumulative experience into invigorating new challenges.</span>
+                <br/><br/><span className='summary'>
+                Fast-forward, now I am seeking opportunities to continue my growth as a developer. In the meantime, you'll soon be seeing more projects I've been tinkering. Don't worry, I am still teaching and playing the violin when I'm not coding.  
+                </span>
               </p>
               <h2>Technical Skills</h2>
               <ul className='languages'>
