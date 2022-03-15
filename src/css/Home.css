@@ -33,6 +33,8 @@
     background: black; */
     background-image: linear-gradient(45deg, #5587c9, #23ceb7);
 	transform: skewY(-10deg);
+    width: 110vw;
+    margin-left: -1vw;
 }
 
 /* Button styling */

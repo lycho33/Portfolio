@@ -65,5 +65,11 @@
 }
 
 .modalLinks a{
-    margin-left: 15px;
+    margin-left: 5em;
+    text-decoration: none;
+    color: rgb(136, 219, 104);
+}
+
+.modalLinks a:hover{
+    color: #32dce2;
 }
