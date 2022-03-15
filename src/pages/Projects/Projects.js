@@ -1,7 +1,8 @@
 import {React, useState} from 'react';
 import {motion} from 'framer-motion'
-import '../css/Projects.css'
-import { allProjects } from '../Data/projects';
+import '../../css/Projects.css'
+import { allProjects } from '../../Data/projects';
+import Project from '../Projects/Project';
 import Modal from './Modal';
 
 const containerVariants = {
@@ -20,16 +21,13 @@ const containerVariants = {
 
 function Projects() {
   const [open, setOpen] = useState(false)
+  const [selected, setSelected] = useState([])
 
-  const openModal = () => {
-    setOpen(prev => !prev)
-  }
-
-  const renderProjects = allProjects.map(p => 
+  
+  const renderProjects = allProjects.map((p, index) => 
     <div className='project-info'>
       <div className='image-modal' >
-        <img src={p.image} onClick={openModal}/>
-        <h2>{p.name}</h2>
+        <Project project={p} key={p.id} open={open} setOpen={setOpen}/>
       </div>
       <Modal openModal={open} project={p} setModal={setOpen} />
     </div>

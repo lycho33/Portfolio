@@ -6,7 +6,7 @@ import Footer from './margins/Footer'
 import About from './pages/About'
 import Header from './margins/Header'
 import Experience from './pages/Experience';
-import Projects from './pages/Projects'
+import Projects from './pages/Projects/Projects'
 import {AnimatePresence} from 'framer-motion'
 import { PagesData } from "./pages/PagesData"
 import ReactScrollWheelHandler from "react-scroll-wheel-handler";
