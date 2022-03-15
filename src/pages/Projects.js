@@ -1,5 +1,8 @@
-import React from 'react';
+import {React, useState} from 'react';
 import {motion} from 'framer-motion'
+import '../css/Projects.css'
+import { allProjects } from '../Data/projects';
+import Modal from './Modal';
 
 const containerVariants = {
   hidden: {
@@ -16,19 +19,37 @@ const containerVariants = {
 }
 
 function Projects() {
+  const [open, setOpen] = useState(false)
+
+  const openModal = () => {
+    setOpen(prev => !prev)
+  }
+
+  const renderProjects = allProjects.map(p => 
+    <div className='project-info'>
+      <div className='image-modal' >
+        <img src={p.image} onClick={openModal}/>
+        <h2>{p.name}</h2>
+      </div>
+      <Modal openModal={open} project={p} setModal={setOpen} />
+    </div>
+  )
 
   return (
     <div>
       <div className='vl'></div>
       <motion.div className='home container'
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
-      >
-        <div>
-            <h1>Projects</h1>
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+      >     
+
+        <h1 className='projects-title'>Projects</h1>
+        <div className='projects-info-container'>
+            {renderProjects}
         </div>
+
       </motion.div>
     </div>
   );
