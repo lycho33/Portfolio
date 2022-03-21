@@ -26,6 +26,7 @@ function App() {
 
     setCurrentIndex(currentIndex + 1)
     navigate(pages[currentIndex])
+    setPages()
   }
 
   // const prevIndex = () => {
