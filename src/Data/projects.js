@@ -1,7 +1,4 @@
 import shopping from '../image/shopping.jpg'
-import chatApp from '../image/chatApp.jpg'
-import BuddyChat from '../image/BuddyChat.jpg'
-import Buddy from '../image/Buddy.jpg'
 import octoCat from '../image/octoCat.jpg'
 
 export const allProjects = [
