@@ -14,13 +14,23 @@
 
 .image-modal img {
     width: 20vw;
-    height: 30vh;
-    border-radius: 10%;
+    height: 32vh;
+    border-radius: 40%;
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+    background-color: pink;
+    opacity: 1;
+}
+
+.image-modal img:hover{
+    opacity: 0.5;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .image-modal h2 {
     padding-left: 6vw;
+    font-size: 2.5em;
+    color: #6EFF3C;
 }
 
 

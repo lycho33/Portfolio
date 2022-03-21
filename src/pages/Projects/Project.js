@@ -8,7 +8,7 @@ function Project({project, key, open, setOpen}) {
     }
 
   return (
-    <div className='image-modal'>
+    <div className='image-modal' key={key}>
         <img src={project.image} onClick={imageClick}/>
         <h2>{project.name}</h2>
     </div>
