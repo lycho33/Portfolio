@@ -21,10 +21,10 @@ const containerVariants = {
 
 function Projects() {
   const [open, setOpen] = useState(false)
-  const [selected, setSelected] = useState([])
+  // const [selected, setSelected] = useState([])
 
   
-  const renderProjects = allProjects.map((p, index) => 
+  const renderProjects = allProjects.map((p) => 
     <div className='project-info'>
       <div className='image-modal' >
         <Project project={p} key={p.id} open={open} setOpen={setOpen}/>

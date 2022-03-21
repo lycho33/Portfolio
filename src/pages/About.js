@@ -1,9 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ProfilePic from '../image/profilePic.jpg'
-import { useNavigate } from 'react-router-dom'
 import '../css/About.css'
 import {motion} from 'framer-motion'
-import { Link } from 'react-router-dom'
 import { FaReact } from 'react-icons/fa';
 import { SiRedux, SiSqlite, SiJavascript, SiRubyonrails  } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';

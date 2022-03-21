@@ -1,6 +1,5 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from 'react-router-dom'
-import { VscMenu } from "react-icons/vsc";
 import '../css/Header.css'
 
 function Header() {

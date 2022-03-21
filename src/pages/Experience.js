@@ -1,10 +1,8 @@
-import React, { useState } from "react"
+import React from "react"
 import '../css/Experience.css'
-import {ExperienceData} from './ExperienceData'
 import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import 'react-web-tabs/dist/react-web-tabs.css';
 import {motion} from 'framer-motion'
-import { Link } from 'react-router-dom'
 
 const containerVariants = {
   hidden: {
