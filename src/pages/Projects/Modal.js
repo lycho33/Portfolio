@@ -8,7 +8,7 @@ function Modal({openModal, setModal, project}) {
         <div className='modalContent'>
           <div className='modalLinks'>
             <a href={project.repo}><h3>Github Repo</h3></a> 
-            <a href="http://"><h3>Demo</h3></a>
+            <a href={project.demo}><h3>Demo</h3></a>
           </div>
           <hr />
           <p>{project.description}</p>
