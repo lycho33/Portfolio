@@ -1,5 +1,5 @@
 import './css/App.css';
-import React, { useState, useRef } from "react"
+import React, { useRef } from "react"
 import { Route, Routes, useLocation, useNavigate } from 'react-router-dom'
 import Home from './pages/Home' 
 import Footer from './margins/Footer'
@@ -8,58 +8,32 @@ import Header from './margins/Header'
 import Experience from './pages/Experience';
 import Projects from './pages/Projects/Projects'
 import {AnimatePresence} from 'framer-motion'
-import { PagesData } from "./pages/PagesData"
+import { linkedList } from "./pages/PagesData"
 import ReactScrollWheelHandler from "react-scroll-wheel-handler";
 
-function App() {
 
-  const [showNav, setShowNav] = useState(false)
-  const [pages, setPages] = useState(PagesData)
-  const [currentIndex, setCurrentIndex] = useState(0)
+function App() {
 
   const navigate = useNavigate()
   const location = useLocation();
   const myRef = useRef(null)
 
-  const nextIndex = () => {
-    // const currentPath = PagesData.indexOf(location.pathname)
+  const pages = ['/', '/about', '/experience', '/projects']
+  pages.map(p => linkedList.append(p))
 
-    setCurrentIndex(currentIndex + 1)
-    navigate(pages[currentIndex])
-    setPages()
+  const nextIndex = () => {
+    navigate(linkedList.nextPage(location.pathname))  
   }
 
-  // const prevIndex = () => {
-  //   setCurrentIndex(currentIndex - 1)
-  //   navigate(pages[currentIndex])
-  //   console.log(currentIndex)
-  // }
-
-  // const prevIndex = () => {
-  //   const lastPath = PagesData.length - 1
-  //   const currentPath = PagesData.indexOf(location.pathname)
-  //   setCurrentIndex(PagesData.indexOf(location.pathname))
-
-
-  //   const prevPath = (currentPath <= lastPath) && currentPath - 1
-  //   console.log("p[revious] index,", prevPath)
-    
-  //   if(currentPath === 0){
-  //     return navigate(PagesData[lastPath])
-  //   } else if (currentPath === lastPath){
-  //     return navigate(PagesData[2])
-  //   } 
-  //   else 
-  //   if (currentPath < PagesData.length && currentPath > 0){
-  //     return navigate(PagesData[prevPath])
-  //   }
-  // }
+  const prevIndex = () => {
+    navigate(linkedList.prevPage(location.pathname))  
+  }
 
   return (
     <div className='App' ref={myRef}>
-      <Header showNav={showNav} setShowNav={setShowNav}/>
+      <Header />
       <ReactScrollWheelHandler
-        // upHandler={prevIndex}
+        upHandler={prevIndex}
         downHandler={nextIndex}
         style={{
           scrollBehavior: "smooth"
