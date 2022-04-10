@@ -36,7 +36,8 @@ function Experience() {
                 <TabList>
                   <Tab tabFor='vertical-tab-one' className="tab"><h2>Indiana University Bloomington</h2></Tab>
                   <Tab tabFor='vertical-tab-two' className="tab"><h2>Harvard Graduate School of Education</h2></Tab>
-                  <Tab tabFor='vertical-tab-three' className="tab"><h2>Northwestern University</h2></Tab>
+                  <Tab tabFor='vertical-tab-three' className="tab"><h2>Lexia Learning</h2></Tab>
+                  <Tab tabFor='vertical-tab-four' className="tab"><h2>Northwestern University</h2></Tab>
                 </TabList>
 
                 <TabPanel tabId='vertical-tab-one' className="description">
@@ -52,6 +53,11 @@ function Experience() {
                   <li>Personalized and customized content for 4 journeys in Salesforce</li>
                 </TabPanel>
                 <TabPanel tabId='vertical-tab-three' className="description">
+                  <h2>Intern</h2>
+                  <li>Created grades K-4 instructionally designed sample digital lessons through Nearpod and Peardeck for students in the Lexia Core5 Reading blended learning program</li>
+                  <li>Tested and evaluated the digital lessons’ efficacy of instruction and student engagement in limited student user-testing</li>
+                </TabPanel>
+                <TabPanel tabId='vertical-tab-four' className="description">
                   <h2>Teaching Assistant</h2>
                   <li>Created a new form of curriculum for K-12 Northwestern String Academy students, focused on how to improve practicing and performance skills with a more holistic view of the psychology of the performer </li>
                   <li>Taught private weekly violin lessons and group string lessons, while collaborating with the head instructor and parents to provide guidance on each student’s musical development </li>
